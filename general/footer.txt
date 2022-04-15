@@ -1,0 +1,3 @@
+<h4 class="footer">
+Made by Oakchris1955. A lot of thanks to W3Schools.com <br><a href="http://www.w3schools.com" target="_blank"><img src="/images/w3schools.jpg"></a>
+</h4>

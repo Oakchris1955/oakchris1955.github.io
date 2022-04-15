@@ -1,0 +1,13 @@
+   <h2 class="header">Main page</h2>
+   <div class="topbar">
+    <a>Home</a>
+    <a href="javascript:openNav()">More</a>
+    <div class="dropdown">
+     <button onclick="show()" class="dropbtn" id="button">My creations +</button>
+     <div id="myDropdown" class="dropdown-content">
+      <a href="/Maths_site.html" target="_blank">Calculator</a>
+      <a href="/random_number/random_num_main.html" target="_blank">Random number</a>
+      <a href="/tetris/javascript-tetris-master/">Tetris game</a>
+     </div>
+    </div>
+   </div>
