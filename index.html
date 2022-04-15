@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html>
+ <head>
+  <title>Main page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/Align_elements.css">
+  <link rel="icon" href="images/Site.png" type="image/x-icon">
+  <script src="/script/headscript.js"></script>
+ </head>
+ <body onload="myFunction()" style="margin:0;">
+  <div id="mySidenav" class="sidenav">
+   <div w3-include-html="/general/more.txt"></div>
+  </div>
+  
+  <div id="loader"></div>
 
-<body>
-	<center>
-		<h1>I am Oakchris1955 and this is my website</h1>
-		<p>Still work in progress...</p>
-		<a href="contact.html">Contact info</a>
-	</center>
+  <div style="display:none;" id="content" class="animate-bottom">
+   <div w3-include-html="/general/top.txt"></div>
+  <table width="100%">
+   <tr>
+    <td class="side">
+     <div w3-include-html="/general/side1.txt"></div> 
+    </td>
+    <td class="center">
+     <h4>This page is still on building</h4>
+    </td>
+    <td class="side">
+     <div w3-include-html="/general/side2.txt"></div>
+    </td>
+   </tr>
+  </table>
+  <div w3-include-html="/general/footer.txt"></div>
+  </div>
+  <div style="display:none;" id="load">
+   <iframe src="/general/more.txt"></iframe>
+   <iframe src="/general/top.txt"></iframe>
+   <iframe src="/general/side1.txt"></iframe>
+   <iframe src="/general/side2.txt"></iframe>
+   <iframe src="/general/footer.txt"></iframe>
+  </div>
+  <script  src="/script/script.js"></script>
 </body>
-
 </html>
