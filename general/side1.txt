@@ -1,2 +1,2 @@
 Make sure to check out my Github
-<div class="github-widget" data-username="Oakchris1955"></div>
+<a href="https://github.com/Oakchris1955", target="_blank"><img src="https://icons-for-free.com/download-icon-part+1+github-1320568339880199515_32.png" alt="Oakchris1955"></a>
