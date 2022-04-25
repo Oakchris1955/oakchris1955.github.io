@@ -6,7 +6,7 @@
 
     document.getElementById("myDropdown").classList.toggle("show");
 
-    var bef = document.getElementById("button").textContent;
+    var bef = document.getElementById("dropdown_button").textContent;
 
     var aft;
 
@@ -24,7 +24,7 @@
 
     }
 
-    document.getElementById("button").textContent = aft;
+    document.getElementById("dropdown_button").textContent = aft;
 
   }
 
@@ -44,7 +44,7 @@
 
     } 
 
-    document.getElementById("button").textContent = x;
+    document.getElementById("dropdown_button").textContent = x;
 
    }
 
