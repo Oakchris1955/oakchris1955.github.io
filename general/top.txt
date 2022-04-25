@@ -3,7 +3,7 @@
     <a>Home</a>
     <a href="javascript:openNav()">More</a>
     <div class="dropdown">
-     <button onclick="show()" class="dropbtn" id="button">My creations +</button>
+     <button onclick="show()" class="dropbtn" id="dropdown_button">My creations +</button>
      <div id="myDropdown" class="dropdown-content">
       <a href="/maths/Maths.html" target="_blank">Calculator</a>
       <a href="/random_number/random_num.html" target="_blank">Random number</a>
