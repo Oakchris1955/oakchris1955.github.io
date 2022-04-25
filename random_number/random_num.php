@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <link rel="stylesheet" href="http://oakchris1955.infinityfreeapp.com/css/Align_elements.css">
+  <link rel="stylesheet" href="/css/Align_elements.css">
   <title>Random number with PHP</title>
  </head>
  <body>
@@ -14,7 +14,7 @@
   </div>
    <h2 class="header">Main page</h2>
    <div class="topbar">
-    <a href="http://oakchris1955.infinityfreeapp.com/">Home</a>
+    <a href="/">Home</a>
     <a href="javascript:openNav()">More</a>
     <div class="dropdown">
      <button onclick="myFunction()" class="dropbtn" id="button">My creations +</button>

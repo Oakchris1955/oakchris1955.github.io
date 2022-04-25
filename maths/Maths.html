@@ -24,9 +24,17 @@
 					<div w3-include-html="/general/side1.txt"></div>
 				</td>
 				<td class="center">
-					<!-- Local site text -->
-					<p>Random number: <label id="random"></label></p>
-					<button onclick="random()">Generate random number</button>
+					<div class="bold">
+						<input type="radio" id="+" name="calculate" oninput="rename()" checked><label> +</label><br>
+						<input type="radio" id="-" name="calculate" oninput="rename()"><label> -</label><br>
+						<input type="radio" id="*" name="calculate" oninput="rename()"><label> *</label><br>
+						<input type="radio" id=":" name="calculate" oninput="rename()"><label> :</label><br>
+					</div>
+					<p><input type="number" id="1st"></p>
+					<p><input type="number" id="2nd"></p>
+					<p><button id="button" onclick="add()" class="modern">Addition</button></p>
+					<input type="text" id="result" class="hid" value="Result" disabled>
+					<p><button onclick="copy(1)">Copy result</button></p>
 				</td>
 				<td class="side">
 					<div w3-include-html="/general/side2.txt"></div>
@@ -43,13 +51,7 @@
 		<iframe src="/general/footer.txt"></iframe>
 	</div>
 	<script src="/script/script.js"></script>
-	<!-- Local site script -->
-	<script>
-		function random() {
-			var num = Math.floor(Math.random() * 10000000000000000) + 1;
-			document.getElementById("random").innerHTML = num
-		}
-	</script>
+	<script src="/script/maths.js"></script>
 </body>
 
 </html>
