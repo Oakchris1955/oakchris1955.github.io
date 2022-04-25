@@ -1,6 +1,6 @@
    <h2 class="header">Main page</h2>
    <div class="topbar">
-    <a>Home</a>
+    <a href="/">Home</a>
     <a href="javascript:openNav()">More</a>
     <div class="dropdown">
      <button onclick="show()" class="dropbtn" id="dropdown_button">My creations +</button>
