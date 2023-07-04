@@ -78,7 +78,7 @@ body {
 	text-align: center;
 }
 
-.center > * {
+.page-center > * {
 	margin: 0 5%;
 	padding: 1% 0;
 }

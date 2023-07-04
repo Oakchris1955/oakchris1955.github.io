@@ -13,7 +13,7 @@ export default function Layout({children}: LayoutProps): JSX.Element {
 	return (
 		<div className="layout">
 			<TopBar/>
-			<div className="horizontal-align center">
+			<div className="horizontal-align page-center">
 				<LeftSide/>
 					{children}
 				<RightSide/>
