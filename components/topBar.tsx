@@ -46,7 +46,7 @@ export default function TopBar() {
 			<div className="dropdown">
 			<button onClick={handleDropdownClick} className="dropbtn" id="dropdown_button">{dropdownText}</button>
 				<div ref={dropdownRef} id="myDropdown" className="dropdown-content">
-					{dropdownItems !== null ? dropdownItems.length ? dropdownItems.map(item => <Link href={item.url} key={item.name}>{item.name}</Link>) : "Nothing here (yet...)" : "Couldn't fetch dropdown items"}
+					{dropdownItems !== null ? dropdownItems.length ? dropdownItems.map(item => <Link href={item.url} target="_blank" key={item.name}>{item.name}</Link>) : <span>Nothing here (yet...)</span> : <span>Couldn&apos;t fetch dropdown items</span>}
 				</div>
 			</div>
 		</div>
