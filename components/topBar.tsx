@@ -34,7 +34,7 @@ export default function TopBar() {
 				// If on client side, log this error
 				? console.error
 				// Otherwise, don't pass anything
-				: null
+				: () => {}
 		)
 	} else {
 		console.log(dropdownItems)
