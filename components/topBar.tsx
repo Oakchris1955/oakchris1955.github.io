@@ -36,8 +36,6 @@ export default function TopBar() {
 				// Otherwise, don't pass anything
 				: () => {}
 		)
-	} else {
-		console.log(dropdownItems)
 	}
 
 	return (
