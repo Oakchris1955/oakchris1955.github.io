@@ -21,6 +21,12 @@ export default function TopBar() {
 		}
 	}
 
+	function reload() {
+		if (typeof window !== "undefined") {
+			window.location.reload()
+		}
+	}
+
 	if (dropdownItems === null) {
 		fetch("/assets/dropdown-items.json")
 		.then(response => {
@@ -44,7 +50,7 @@ export default function TopBar() {
 			<div className="dropdown">
 			<button onClick={handleDropdownClick} className="dropbtn" id="dropdown_button">{dropdownText}</button>
 				<div ref={dropdownRef} id="myDropdown" className="dropdown-content">
-					{dropdownItems !== null ? dropdownItems.length ? dropdownItems.map(item => <Link href={item.url} target="_blank" key={item.name}>{item.name}</Link>) : <span>Nothing here (yet...)</span> : <span>Couldn&apos;t fetch dropdown items</span>}
+					{dropdownItems !== null ? dropdownItems.length ? dropdownItems.map(item => <Link href={item.url} target="_blank" key={item.name}>{item.name}</Link>) : <span>Nothing to see here (yet...)</span> : <span>Couldn&apos;t fetch dropdown items. <hr/><button onClick={reload}>Please reload the website</button></span>}
 				</div>
 			</div>
 		</div>
