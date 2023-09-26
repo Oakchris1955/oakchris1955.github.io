@@ -1,1 +1,6 @@
-[]
+[
+    {
+        "name": "Cat Requests",
+        "url": "/cat-requests-ts/"
+    }
+]
