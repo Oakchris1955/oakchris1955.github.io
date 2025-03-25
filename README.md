@@ -1,3 +1,1 @@
-# oakchris1955.github.io rewrite
-
-A rewrite of my website using the [Next.JS](https://nextjs.org/) framework
+# Repo archived, check https://github.com/Oakchris1955/oakchris1955.eu instead
